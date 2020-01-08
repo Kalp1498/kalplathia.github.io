@@ -13,3 +13,4 @@ import { ProductsComponent } from './products.component';
 })
 
 export class ProductsModule { }
+

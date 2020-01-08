@@ -1,2 +1,19 @@
 <p>Car</p>
-<app-products></app-products>
+<input type="text" [(ngModel)]="num">
+<br><br>
+<select name="cars">
+    <option value="noValue">SelectOne</option>
+    <option value="BMW">BMW</option>
+    <option value="AUDI">AUDI</option>
+    <option value="MERCEDES">MERCEDES</option>
+    <option value="LAMBORGHINI">LAMBORGHINI</option>
+    <option value="SKODA">SKODA</option>
+    <option value="MITSHUBISHI">MITSHUBISHI</option>
+    <option value="FERRARI">FERRARI</option>
+    <option value="ALFA ROMEO">ALFA ROMEO</option>
+    <option value="BENTLEY">BENTLEY</option>
+    <option value="CADILLAC">CADILLAC</option>
+</select>
+<br><br>
+
+<app-products [num1]=num></app-products>
